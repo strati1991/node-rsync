@@ -1,6 +1,6 @@
 FROM node:latest
 
-MAINTAINER dpolyakov "c.heidelmann@gmail.com"
+MAINTAINER dpolyakov "christoph.heidelmann@gmail.com"
 
 RUN apt-get update && \
     apt-get -y install rsync
