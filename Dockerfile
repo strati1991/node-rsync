@@ -1,6 +1,6 @@
-FROM node:latest
+FROM circleci/node:8.12.0-browsers
 
-MAINTAINER dpolyakov "christoph.heidelmann@gmail.com"
+MAINTAINER strati1991 "christoph.heidelmann@gmail.com"
 
 RUN apt-get update && \
     apt-get -y install rsync
