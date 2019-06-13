@@ -1,4 +1,4 @@
-FROM circleci/node:8.12.0-browsers
+FROM circleci/node:latest-browsers
 
 MAINTAINER strati1991 "christoph.heidelmann@gmail.com"
 
